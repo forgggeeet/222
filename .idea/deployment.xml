@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="tomcat" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="tomcat">
+        <serverdata>
+          <mappings>
+            <mapping deploy="webapps\222" local="$PROJECT_DIR$" web="/222" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

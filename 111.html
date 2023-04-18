@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="1111.js"></script>
+</head>
+<body>
+<form id="form">
+    <table>
+    <tr>
+      <td>
+          账号
+      </td>
+        <td>
+            <input type="text" id="username">
+        </td>
+    </tr>
+        <tr>
+            <td>
+                密码
+            </td>
+            <td>
+                <input type="password" id="passwd">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td colspan="2">
+                三天之内免登录
+                <input type="checkbox" id="check">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="登录" onclick="setCookie(),getCookie()">
+            </td>
+        </tr>
+    </table>
+    <script>window.alert(document.cookie);</script>
+</form>
+</body>
+</html>
